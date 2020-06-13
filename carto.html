@@ -863,6 +863,64 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle{right:-17px;left:auto}
     </style>
     </head>
     <body>
+       /* beginning of beams */
+         <div id = "mapforlinks" class = "mapforlinksclass">
+
+   <svg class = "mapforlinksSVGclass" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+   
+     <defs>
+
+      /*-- Lines for Project..*/
+      <g id = "maplinks">
+         <g id="Line1" class="link" style="pointer-events: none;">
+            <line class="link" style="stroke:rgb(255,0,0); stroke-width: 0.1px; stroke-opacity: 0.257052;"
+                  x1="0" y1="0" x2="-10" y2="15">
+            </line>
+         </g>  
+         <g id="Line2" class="link" style="pointer-events: none;">
+            <line class="link" style="stroke:rgb(255,0,0); stroke-width: 0.1px; stroke-opacity: 0.257052;"
+                  x1="0" y1="0" x2="-15" y2="15">
+            </line>
+         </g>  
+         <g id="Line3" class="link" style="pointer-events: none;">
+            <line class="link" style="stroke:rgb(255,0,0); stroke-width: 0.1px; stroke-opacity: 0.257052;"
+                  x1="0" y1="0" x2="-10" y2="-15">
+            </line>
+             
+         </g> 
+        <g id="Line4" class="link" style="pointer-events: none;">
+            <line class="link" style="stroke:rgb(255,0,0); stroke-width: 0.1px; stroke-opacity: 0.257052;"
+                  x1="0" y1="0" x2="0" y2="15">
+            </line>
+         </g> 
+        <g id="Line5" class="link" style="pointer-events: none;">
+            <line class="link" style="stroke:rgb(255,0,0); stroke-width: 0.1px; stroke-opacity: 0.257052;"
+                  x1="0" y1="0" x2="10" y2="-15">
+            </line>
+         </g> 
+        <g id="Line6" class="link" style="pointer-events: none;">
+            <line class="link" style="stroke:rgb(255,0,0); stroke-width: 0.1px; stroke-opacity: 0.257052;"
+                  x1="0" y1="0" x2="10" y2="15">
+            </line>
+         </g> 
+
+      </g>  
+
+     </defs>
+ 
+     /*Render-use my graphical objects */
+
+     <use x="25" y="20" xlink:href="#Line1"/>
+     <use x="25" y="20" xlink:href="#Line2"/>
+     <use x="25" y="20" xlink:href="#Line3"/>
+    <use x="25" y="20" xlink:href="#Line4"/>
+    <use x="25" y="20" xlink:href="#Line5"/>
+    <use x="25" y="20" xlink:href="#Line6"/>
+
+   </svg>
+           
+    /*end of beams*/
       <div class="slider"></div>
       <div id="map"></div>
       <div id="info" class="info"></div>
